@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 self-center flex justify-between w-full max-w-4xl items-center h-[75px] bg-[#FFD700] md:bg-white px-4 md:px-8 rounded-br-3xl rounded-bl-3xl shadow-xl">
+    <header className="fixed top-0 self-center z-50 flex justify-between w-full max-w-4xl items-center h-[75px] bg-[#FFD700] md:bg-white px-4 md:px-8 rounded-br-3xl rounded-bl-3xl shadow-xl">
       <div className="md:hidden relative w-[150px] h-[26px]">
         <Image alt="logo" fill objectFit="contain" src="/images/logo.svg" />
       </div>
