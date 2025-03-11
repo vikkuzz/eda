@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { AntdRegistry } from "@ant-design/nextjs-registry";
-import LayoutPage from "@/components/LayoutPage";
+// import LayoutPage from "@/components/LayoutPage";
 import Script from "next/script";
 
 const geistSans = Geist({
@@ -68,11 +68,11 @@ export default function RootLayout({ children }) {
    });`}
         </Script>
         <AntdRegistry>
-          <LayoutPage>
-            <main className="flex min-h-screen flex-col items-center justify-between">
-              {children}
-            </main>
-          </LayoutPage>
+          {/* <LayoutPage> */}
+          <main className="flex min-h-screen flex-col items-center justify-between">
+            {children}
+          </main>
+          {/* </LayoutPage> */}
         </AntdRegistry>
       </body>
     </html>
