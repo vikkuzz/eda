@@ -5,3 +5,10 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.section-bg {
+  background-image: url("/image/orig.jfif");
+  background-size: contain;
+  width: 300px;
+  height: 150px;
+}
