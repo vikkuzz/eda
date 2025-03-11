@@ -22,9 +22,9 @@ export const metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-  // verification: {
-  //   yandex: "7674f23a4234abf9",
-  // },
+  verification: {
+    yandex: "6b2e4a0d7bf6c1e0",
+  },
   openGraph: {
     images: [
       {
